@@ -476,7 +476,6 @@ footer ul li a {
     width: 70vw;
   }
 
-  /* FIX: stack about section on smaller screens so it doesn't get cut off */
   .about .about-container {
     flex-direction: column;
     gap: 2rem;
@@ -517,10 +516,9 @@ footer ul li a {
     text-align: center;
     background: rgba(0, 0, 0, 0.9);
     border-radius: 3rem;
-    display: none; /* hidden by default */
+    display: none; 
   }
 
-  /* FIX: shown when JS toggles .active via menu-icon click */
   .nav-links.active {
     display: block;
   }
