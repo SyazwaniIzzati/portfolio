@@ -253,10 +253,8 @@ section {
     border-color 0.2s,
     transform 0.2s;
   cursor: default;
-  background: #eea95b;
 }
 .skill-badge:hover {
-  border-color: #d97706;
   transform: translateY(-2px);
 }
 .skill-badge i {
