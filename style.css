@@ -522,7 +522,7 @@ footer ul li a {
 
   /* FIX: shown when JS toggles .active via menu-icon click */
   .nav-links.active {
-    display: flex;
+    display: block;
   }
 
   .nav-links li {
